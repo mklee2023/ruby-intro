@@ -49,3 +49,5 @@ elsif total == 2 || total == 3 || total == 12
 else
     puts "the point is #{total}"
 end
+
+

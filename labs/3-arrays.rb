@@ -15,3 +15,24 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+# my try
+shopping_list1=["milk", "eggs", "bacon"]
+shopping_list2=["beer", "cookies", "apples"]
+combined = shopping_list1 + shopping_list2
+puts combined.sort
+
+# answer
+shopping_list1=["milk", "eggs", "bacon"]
+shopping_list2=["beer", "cookies", "apples"]
+combined = shopping_list1 + shopping_list2
+sorted_list = combined.sort
+unique_list = sorted_list.uniq
+
+puts "buy #{unique_list[0]}"
+puts "buy #{unique_list[1]}"
+puts "buy #{unique_list[2]}"
+puts "buy #{unique_list[3]}"
+puts "buy #{unique_list[4]}"
+puts "buy #{unique_list[5]}"
+
